@@ -43,7 +43,7 @@ h4{
 }
 @font-face {
     font-family: '04b09';
-    src: url(/font/04b09.ttf); format('truetype');
+    src: url(/font/04b09.ttf);
 }
 a{
     text-decoration:none;
