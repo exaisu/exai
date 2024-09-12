@@ -16,6 +16,8 @@ h1{
 h2{
     color:#018281;
     font-family:'Yoster Island';
+    src: local("Yoster Island")
+        url('/font/yoster.ttf') format('truetype');
     font-size:19px;
     font-style: normal;
     offset-position: left;
