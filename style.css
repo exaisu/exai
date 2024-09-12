@@ -1,13 +1,13 @@
 body{
-    font-family:'Web437 IBM XGA-AI 7x15';
+    font-family:'basiic';
     font-size:16px;
     background-color:black;
-    font-weight: 300
+    font-weight: 300;
     text-shadow:var(--body-text-shadow);
 }
 h1{
     color:#ffff;
-    font-family:'Web437 IBM XGA-AI 7x15';
+    font-family:'basiic';
     font-size:16px;
     font-style: light;
     margin:0;
@@ -15,35 +15,36 @@ h1{
 }
 h2{
     color:#018281;
-    font-family:'04b09';
-    font-size:18px;
+    font-family:'Yoster Island';
+    font-size:19px;
     font-style: normal;
+    offset-position: left;
     margin:0;
     text-shadow:var(--green-text-shadow)
 }
 h3{
     color:grey;
-    font-family:'Web437 IBM XGA-AI 7x15';
-    font-size:14px;
+    font-family:'basiic';
+    font-size:13px;
     font-style: normal;
     margin:0;
     text-shadow:var(--green-text-shadow)
 }
 h4{
     color:white;
-    font-family:'Web437 IBM XGA-AI 7x15';
+    font-family:'basiic';
     font-size:22px;
     font-style: normal;
     margin:0;
     text-shadow:var(--green-text-shadow)
 }
 @font-face {
-    font-family: 'Web437 IBM XGA-AI 7x15';
-    src: url(/font/XGA-AI_7x15.woff);
+    font-family: 'basiic';
+    src: url(/font/basiic.ttf);
 }
 @font-face {
-    font-family: '04b09';
-    src: url(/font/04b09.TTF);
+    font-family: 'Yoster Island';
+    src: url(/font/yoster.TTF);
 }
 a{
     text-decoration:none;
@@ -83,7 +84,6 @@ a{
 }
 #statuscafe {
     padding: .15em;
-    background-color: transparent;
     border: 1px solid transparent;
 }
 #statuscafe-username {
@@ -101,16 +101,9 @@ a{
     vertical-align:baseline
 }
 .box{
-    background-color:#000000a8;
-    border:2px solid #363636;
-    border-radius:4px;
-    color:#fff;
-    padding:10px 15px;
-    margin:5px
-}
-.box_transparent{
-    background-color:#000000a8;
-    border-radius:4px;
+    background-color:#081b20c5;
+    border:3px solid #173e49c5;
+    border-radius:8px;
     color:#fff;
     padding:10px 15px;
     margin:5px
@@ -169,14 +162,27 @@ footer{
     color:white;
     text-decoration:none
 }
-#status{
-    display:inline;
-    color:#ff0
-}
 #pfp{
     float:left;
     border:3px solid #018281;
     margin:15px 15px 5px 0px;
     width:100px;
     height:94px
+}
+.lastfm-widget {
+	padding-top: 1.5rem;
+	border-top: 1px solid var(--body-color-secondary);
+	font-size: 0.9rem;
+	line-height: 1.2;
+	display: grid;
+	grid-template-columns: 64px auto;
+	gap: 0.5rem;
+	margin: 0.75rem auto 0 auto;
+}
+.lastfm-img {
+	border-radius: 0.25rem;
+}
+.lastfm-title {
+	font-size: 0.7rem;
+	margin-bottom: 0.2rem;
 }

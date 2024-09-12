@@ -21,13 +21,13 @@
             </div>
             <div style="margin-top: 10px;">
               <div class="box" style="margin-top: 10px;">
-                <h2 style="display: inline;">blog!</h2>
+                <h2 style="display: inline;">posts!</h2>
                 <br />
                 <br />
                 <span class="blog-arrow">›› </span>
                 <b>
-                  <a href="https://www.exai.pw/posts/log3">new site, fresh start</a>
-                </b>&nbsp;—&nbsp;&nbsp;TBD, 2023<br />
+                  <a href="https://www.exai.pw/posts/log3">i love procrastinating</a>
+                </b>&nbsp;—&nbsp;&nbsp;TBD, 2024 (lol)<br />
               </div>
               <div style="margin-top: 12px; text-align: center;">
                 <img src="/88x31/drpepper.gif" />
@@ -39,17 +39,16 @@
                 <img src="/88x31/powered-by-debian.gif" />
                 <img src="/88x31/archlinux.gif" />
                 <img src="/88x31/proxmox.gif" />
-                <img src="/88x31/jellyfin.gif" />
-                <img src="/88x31/navidrome.gif" />
-                <img src="/88x31/bitwarden.gif" />
                 <img src="/88x31/chrmevil.gif" />
                 <img src="/88x31/firefoxnow.gif" />
                 <img src="/88x31/minecraft.gif" />
-                <img src="/88x31/madewithbrackets.gif" />
+                <img src="/88x31/vscbutton.gif" />
+                <img src="/88x31/webpassion.gif" />
+                <img src="/88x31/cheezit.gif" />
                 <h3 style="display: inline;">
                   <p>
                     <a href='https://staydown.money/wr?prev=
-										<your domain>'>&lt;-&nbsp; prev </a> | <i>this site is part of the <a href='https://staydown.money/'>staydown.money</a> webring </i> | <a href='https://staydown.money/wr?next=
+										<your domain>'>&lt;-&nbsp; prev </a> ★ <i>this site is part of the <a href='https://staydown.money/'>staydown.money</a> webring </i> ★ <a href='https://staydown.money/wr?next=
 											<your domain>'>next &nbsp;-&gt; </a>
                   </p>
           <td id="menutd" style="max-width: 225px;">
@@ -94,10 +93,14 @@
               <b id="currentlylistening">now playing:</b>
               <br />
               <br />
-                <div id="musicbox">
-                  <img src="x" id="albumcover" width="50" height="50" />
-                  <marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3" id="songname">placeholder</marquee>
+                <div id="LastFM" class="lastfm-widget" style="display:none">
+                   <script src=/functions/lastplayed.js,/scripts/script.js></script>
+                    <img src="x" id="{lastTrack.albumArt}" width="50" height="50" />
+                  <marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3" id="lastTrackData.name">test</marquee>
                   <span id="artist">placeholder</span>
+                    <a id="lastFMLink" href="https://www.last.fm"></a>
+                    </div>
+		            <div id="lastTrack.albumArt" class="lastfm-album"></div>
                 </div>
               </a>
               <span id="lastplayed" style="color: gray; --darkreader-inline-color: #988f81;" data-darkreader-inline-color="">Played 9 hours ago</span>
