@@ -44,7 +44,7 @@ h4{
 }
 @font-face {
     font-family: 'Yoster Island';
-    src: url(/font/yoster.TTF);
+    src: url(/font/yoster.ttf);
 }
 a{
     text-decoration:none;
