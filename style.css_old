@@ -88,13 +88,17 @@ a{
 }
 #mcrender {
     position: relative;
-    width: 120px;
-    right: 79px;
+    width: 100px;
+    right: 68px;
+    top: 172px;
+    margin-top: -2500px;
   }
 #statuscafe-username {
     margin-bottom: .5em;
 }
-
+#statuscafe-content {
+    margin: 20 1em 0.5em 1em;
+}
 #maintd{
     width:675px;
     vertical-align:baseline
