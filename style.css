@@ -91,6 +91,13 @@ a{
     width: 120px;
     right: 79px;
   }
+#skins {
+    position: relative;
+    width: 12%;
+    right: 48px;
+    margin-top: -70;
+;
+}
 #statuscafe-username {
     margin-bottom: .5em;
 }
